@@ -1,0 +1,49 @@
+<html>
+<head>
+<script>
+function displayResult()
+{
+var x=document.getElementById("textname").value;
+var y=document.getElementById("textaddress").value;
+var z=document.getElementById("textfiles").value;
+var a=document.getElementById("upfile").value;
+alert(x);
+alert(y);
+alert(z);
+alert(a);
+}
+</script>
+</head>
+<body>
+<form>
+<table width="30%" bgcolor="#00FFFF" align="center">
+
+<tr>
+<td colspan=4><center><font size=4><b>File Upload in HTML</b></font></center></td>
+</tr>
+
+<tr>
+<td>Nama:</td>
+<td><input type=text name=textnames id="textname"></td>
+</tr>
+<tr>
+<td>Alamat:</td>
+<td><input type=text name=textaddress id="textaddress"></td>
+</tr>
+<tr>
+<td>Judul file:</td>
+<td><input type=text name=textfiles id="textfiles"></td>
+</tr>
+<tr>
+<td>File upload:</td>
+<td><input type=file name=upfile id="upfile"><br>
+</td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td><input type=button onclick="displayResult()" value="Save"/></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "react-hello-world",
+  "version": "1.0.0",
+  "description": "coba",
+  "main": "index.js",
+  "scripts": {
+    "start": "/home/qwer/react-hello-world/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/home/qwer/react-hello-world/.git/"
+  },
+  "keywords": [
+    "qwer"
+  ],
+  "author": "Ibrahim Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "es6-promise": "^4.1.1",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.5",
+    "react": "^15.6.1",
+    "underscore": "^1.8.3",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "devDependencies": {}
+}
